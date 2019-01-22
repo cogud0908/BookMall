@@ -21,7 +21,7 @@ public class BookMall {
 		// 1. 회원 리스트 – 2명
 		System.out.println("===============사용자 목록===============");
 		memberDao.insertTest("임채형", "010-5299-0701", "cogud0908@naver.com", "1234");
-		memberDao.insertTest("살려줘", "010-1004-1004", "helpme@naver.com", "1004");
+		memberDao.insertTest("개발자", "010-1004-1004", "helpme@naver.com", "1004");
 		memberDao.getListTest();
 		
 		System.out.println("===============카테고리 목록===============");
